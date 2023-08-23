@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face{
+    font-family: cordel;
+    src: url(fonte/BlackOpsOne-Regular.ttf) format(opentype);
+    font-weight: normal;
+}
+
+
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+header h1{
+   
+    font-size: 3em;
+    font-family: cordel;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+ a:hover{
+    color: red;
+}
+nav p{
+    color: white;
+}
+
+div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+}
+#imagem1{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+    margin: 10px 0px 10px -10px;
+     background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            border-radius: 1px solid black;
+            
+            
+}
+#imagem2{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    width: 100%;
+    margin: 10px 0px 10px -10px;
+    background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+           border-radius: 1px solid black;
+}
+
+
+
+  
+
+
+main p.imagem{
+    padding: 10px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 280px;
+    color: white;
+    
+    height: 380px;
+    margin: 20px 0px 10px 30px;
+    text-align: left;
+    font-size: 1.5em;
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+    font-family: cordel;
+
+   
+}
+ main p.normal{
+    padding: 10px 0px 0px 0px;
+    width: 280px;
+    color: rgb(0, 0, 0);
+    
+    height: 380px;
+    margin: 20px 0px 10px 10px;
+    text-align: left;
+    font-size: 1.5em;
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+    font-family: cordel;
+
+  
+
+ }
+
+ footer{background-color: black;
+color: white;
+text-align: center;
+}
+
+
+
